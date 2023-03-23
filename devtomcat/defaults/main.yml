@@ -1,0 +1,6 @@
+---
+# defaults file for devtomcat
+devtomcat_arc_url: https://archive.apache.org/dist/tomcat/tomcat-8/v{{ devtomcat_ver }}/bin/apache-tomcat-{{ devtomcat_ver }}.tar.gz
+devtomcat_arc_dest: /tmp/apache-tomcat-{{ devtomcat_ver }}.tar.gz
+
+...

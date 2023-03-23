@@ -1,0 +1,8 @@
+---
+# handlers file for devtomcat
+- name: restart devtomcat
+  service:
+    name: tomcat
+    state: restarted
+
+...

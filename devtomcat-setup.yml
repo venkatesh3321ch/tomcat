@@ -1,0 +1,14 @@
+---
+- name : devtomcat deployment playbook
+  hosts : all
+  become : yes
+
+  vars :
+    devtomcat_ver: 8.5.84
+    gui_manager_user: manager
+    gui_manager_pass: Redhat@123
+    gui_admin_username: admin
+    gui_admin_pass: Redhat@123
+  roles :
+    -  devtomcat
+...
